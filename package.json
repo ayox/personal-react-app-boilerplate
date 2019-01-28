@@ -22,14 +22,19 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src"
   },
   "devDependencies": {
     "babel-plugin-macros": "^2.4.5",
     "eslint-config-prettier": "^4.0.0"
   },
   "eslintConfig": {
-    "extends": ["react-app","eslint-config-prettier"]
+    "extends": [
+      "eslint:recommended",
+      "react-app",
+      "eslint-config-prettier"
+    ]
   },
   "browserslist": [
     ">0.2%",
