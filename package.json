@@ -25,10 +25,11 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "babel-plugin-macros": "^2.4.5"
+    "babel-plugin-macros": "^2.4.5",
+    "eslint-config-prettier": "^4.0.0"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": ["react-app","eslint-config-prettier"]
   },
   "browserslist": [
     ">0.2%",
